@@ -29,7 +29,7 @@ public class UserController extends BaseController {
 		if(user == null) {
 			return JsonResponse.getInstance().getAuthErrorMessage();
 		}
-		
+		System.out.println("satya");
 		if(!this.requiredParamsForUpdatevehicle(vehicle)) {
 			return JsonResponse.getInstance().getInsufficientMessage();
 		}
