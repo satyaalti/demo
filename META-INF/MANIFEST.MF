@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: altiresourcepool
+Bundle-SymbolicName: altiresourcepool
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.arp.controller,
+ com.arp.dao,
+ com.arp.dao.impl,
+ com.arp.model,
+ com.arp.service,
+ com.arp.service.impl
+Import-Package: com.arp.service,
+ javax.inject,
+ org.eclipse.persistence.internal.oxm;version="2.6.0",
+ org.eclipse.persistence.oxm;version="2.6.0"
