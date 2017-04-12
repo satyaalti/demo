@@ -32,6 +32,7 @@ public class PoolRqstDAOImpl implements PoolRqstDAO {
 		Session session = this.sessionFactory.openSession();
        	try {
        		session.save(poolRqst);
+       		System.out.println("demo dao impl");
        		return poolRqst;
        	}
    		catch(HibernateException hbe) {
